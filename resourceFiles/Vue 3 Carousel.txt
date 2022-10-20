@@ -1,0 +1,4 @@
+https://www.npmjs.com/package/vue3-carousel
+
+https://ismail9k.github.io/vue3-carousel/getting-started.html
+https://ismail9k.github.io/vue3-carousel/examples.html#basic-example

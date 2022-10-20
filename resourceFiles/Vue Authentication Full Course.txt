@@ -1,0 +1,12 @@
+//Vue Authentication Full Course
+https://www.youtube.com/watch?v=uqpM7WVTKI4&ab_channel=ScalableScripts
+
+//Laravel 9 Rest Api Authentication with Vue 3 Composition Api
+https://larainfo.com/blogs/laravel-9-rest-api-authentication-with-vue-3-composition-api
+
+//SPA Authentication using Laravel 9 Sanctum, Vue 3 and Vite
+https://techvblogs.com/blog/spa-authentication-laravel-9-sanctum-vue3-vite
+
+
+//Full Stack Vue.js 3 & Laravel CRUD with RESTFUL API | Part 1
+https://www.youtube.com/watch?v=sY1ZLWz5YM4&list=PLLhM616BHksvFBwJ1WrrLJEAE3-onnJxN&index=1&ab_channel=ABNationProgrammers

@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/73278724/vs-code-showing-errors-on-template-tag

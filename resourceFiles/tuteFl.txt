@@ -1,0 +1,19 @@
+https://www.youtube.com/watch?v=0FwBjPeLqQ8&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=12&ab_channel=TheNetNinja
+
+
+
+//Start with this tute Hindi tute// Basic with restaurant project
+https://www.youtube.com/watch?v=h18hbBNxXac&list=PL8p2I9GklV45e7L_qC_mntM7FhSIV8pqa&ab_channel=CodeStepByStep
+
+
+
+//Basic 
+https://vuejs.org/guide/quick-start.html
+
+//how to convert html template to vue js 3 template
+https://www.youtube.com/watch?v=hiAA6Dj6gIo&ab_channel=webcodecamp
+https://github.com/masukmia1234/landing-page-vue/tree/main/src
+
+
+//What is the difference between var, let and const?
+https://vueschool.io/lessons/what-is-the-difference-between-var-let-and-const

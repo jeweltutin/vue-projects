@@ -1,0 +1,97 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rubel",
+      "email": "rubel@test.com",
+      "phone": "123213123",
+      "password": "12345"
+    },
+    {
+      "name": "Salma",
+      "email": "salma@test.com",
+      "phone": "5675757",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Jewel",
+      "email": "jewel@test.com",
+      "phone": "67867867",
+      "password": "12345"
+    },
+    {
+      "email": "santa@test.com",
+      "name": "Santa",
+      "phone": "645654645",
+      "password": "12345",
+      "id": 4
+    },
+    {
+      "email": "lima@test.com",
+      "name": "lima",
+      "phone": "546456456",
+      "password": "12345",
+      "id": 5
+    },
+    {
+      "email": "peter@gmail.com",
+      "name": "Peter",
+      "phone": "34534534",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "email": "lina@test.com",
+      "name": "Lina",
+      "phone": "21342432",
+      "password": "12345",
+      "id": 7
+    }
+  ],
+  "restaurant": [
+    {
+      "id": 1,
+      "name": "KFC",
+      "contact": 123456,
+      "address": "gulshan 1, Dhaka"
+    },
+    {
+      "name": "Burger King",
+      "contact": 444555,
+      "address": "Dhanmondi, Dhaka",
+      "id": 2
+    },
+    {
+      "name": "Red Chillies",
+      "contact": 456756756,
+      "address": "C Block, Banosree, Dhaka",
+      "id": 3
+    },
+    {
+      "name": "Star Hotel",
+      "contact": 786578788,
+      "address": "E Block, Banosree, Dhaka",
+      "id": 4
+    },
+    {
+      "name": "Nanna Biriwani ",
+      "contact": "0178888889",
+      "address": "C Block(B main Road), Banosree, Dhaka",
+      "id": 5
+    },
+    {
+      "name": "Hazi Biriyani",
+      "contact": "11113333",
+      "address": "road no 54, Dhaka",
+      "id": 7
+    },
+    {
+      "name": "Pizza Hut",
+      "contact": "4576546456",
+      "address": "45 Grand Central Terminal New York,NY 1017 United State USA",
+      "id": 8
+    }
+  ]
+}

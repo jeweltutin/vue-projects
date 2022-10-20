@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/59910718/change-background-color-of-navbar-when-scroll-event-with-vuejs

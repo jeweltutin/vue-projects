@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/64557243/url-not-found-when-loading-pages-straight-from-the-url-in-vue-js
+
+https://router.vuejs.org/guide/essentials/history-mode.html#example-server-configurations

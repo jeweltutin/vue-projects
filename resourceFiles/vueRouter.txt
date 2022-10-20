@@ -1,0 +1,9 @@
+https://router.vuejs.org/installation.html
+https://vuejs.org/guide/scaling-up/routing.html
+
+#npm install vue-router@4
+#npm install vue-router@next
+
+
+#npm install axios
+https://www.npmjs.com/package/vue-axios

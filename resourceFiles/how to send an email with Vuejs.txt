@@ -1,0 +1,2 @@
+https://stackoverflow.com/questions/49149550/how-to-send-an-email-with-vuejs
+https://www.section.io/engineering-education/how-to-receive-emails-using-emailjs-in-vue3/

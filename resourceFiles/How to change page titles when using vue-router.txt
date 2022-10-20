@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/51639850/how-to-change-page-titles-when-using-vue-router
+
+https://www.youtube.com/watch?v=W6qpsmkuJ8c&ab_channel=JohnKomarnicki

@@ -1,0 +1,2 @@
+//Simple dynamic pages meta titles on VueJS
+https://www.blog.tonyswierz.com/javascript/simple-dynamic-pages-meta-titles-on-vuejs/

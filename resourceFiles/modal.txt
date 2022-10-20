@@ -1,0 +1,9 @@
+https://hunzaboy.github.io/Light-Modal/#/
+https://codepen.io/imprakash/pen/GgNMXO
+
+https://vuejsexamples.com/a-light-universal-modal-component-for-vue-3/
+
+
+
+
+https://www.youtube.com/watch?v=7gNi7QwYLCw&ab_channel=LearnVue   // Idea from this one worked 
