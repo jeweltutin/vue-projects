@@ -1,6 +1,8 @@
 <template>
-  <HeaderPart :user="userInfo"/>
-  <router-view :user="userInfo"/>
+  <!-- <HeaderPart :user="userInfo"/>
+  <router-view :user="userInfo"/> -->
+  <HeaderPart />
+  <router-view />
   <FooterPart />
 </template>
 
@@ -17,11 +19,11 @@ export default {
     HeaderPart,
     FooterPart
   },
-  data(){
+  /*data(){
       return {
         userInfo: null
       }
-    },
+    },*/
     async created() {
 
       /*const response = await axios.post('auth/me', {
@@ -32,7 +34,8 @@ export default {
 
         const response = await axios.post('auth/me');
         console.log(response);
-        this.userInfo = response.data;
+        //this.userInfo = response.data;
+        this.$store.dispatch('user', response.data);
     }
 }
 </script>

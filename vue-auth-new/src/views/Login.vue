@@ -51,7 +51,11 @@ export default {
             //localStorage.setItem('token', response.data.access_token);
             if (response.data.access_token) {
                 localStorage.setItem('user-info', response.data.access_token);
+                
+                //console.log(response.data.user);
+                this.$store.dispatch('user', response.data.user);
                 this.$router.push({ name: 'Home'});
+                //this.$router.push('/');
             }
             return response.data;
         }

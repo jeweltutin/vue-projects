@@ -1,0 +1,11 @@
+//Install axios
+
+npm install axios --save or npm i axios --save
+
+// For user logged in or not we need vuex
+Vuex is a state management pattern + library for Vue.js applications.
+Pinia is now the new default
+
+The official state management library for Vue has changed to Pinia. Pinia has almost the exact same or enhanced API as Vuex 5, described in Vuex 5 RFC. You could simply consider Pinia as Vuex 5 with a different name. Pinia also works with Vue 2.x as well.
+
+npm install vuex --save

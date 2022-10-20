@@ -35,15 +35,21 @@
 </template>
 
 <script>
+import {mapGetters} from 'vuex'
+
 export default {
     name: "HeaderPart",
-    props: ['user'],
+    //props: ['user'],
     methods: {
         handleLogout(){
             localStorage.removeItem('user-info');
+            this.$store.dispatch('user', null);
             this.$router.push('/');
-            this.$router.push({ name: 'Home'});
+            //this.$router.push({ name: 'Home'});
         }
+    },
+    computed: {
+        ...mapGetters(['user'])
     }
 }
 </script>
