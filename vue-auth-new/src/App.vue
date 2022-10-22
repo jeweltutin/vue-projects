@@ -35,7 +35,7 @@ export default {
         const response = await axios.post('auth/me');
         console.log(response);
         //this.userInfo = response.data;
-        this.$store.dispatch('user', response.data);
+        this.$store.dispatch('actionUser', response.data);
     }
 }
 </script>

@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary" :user="userInfo">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">DXSoft</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
                 <span>Hi, {{ user.name }}</span>
                 <a href="javascript:void(0)" @click="handleLogout">Logout</a>
             </div>
-            <div class="mynav" v-if="!user">
+            <div class="mynav" v-else>
                 <router-link :to="{name: 'Login'}">Login</router-link>
                 <router-link :to="{name: 'Register'}">Register</router-link>
             </div>
@@ -43,7 +43,7 @@ export default {
     methods: {
         handleLogout(){
             localStorage.removeItem('user-info');
-            this.$store.dispatch('user', null);
+            this.$store.dispatch('actionUser', null);
             this.$router.push('/');
             //this.$router.push({ name: 'Home'});
         }

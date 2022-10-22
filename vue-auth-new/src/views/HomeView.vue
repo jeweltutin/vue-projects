@@ -5,6 +5,7 @@
   </div> -->
 <div class="container">
     <h2>Hi, <span v-if="user">{{ user.name }}</span> Welcome!</h2>
+    <!-- <h3>{{ $store.state.user }}</h3> -->
     <p>
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde illum dignissimos doloremque pariatur beatae,
         eius nulla ipsa quas, officiis laborum blanditiis ducimus. Tenetur quidem accusamus deserunt alias ipsum

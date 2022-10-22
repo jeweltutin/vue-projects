@@ -2,21 +2,42 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
-    user: null
+    user: null,
+    bookList: ["English", "Math", "Scirnce", "Generel Knowledge", "Bangla"]
   },
   getters: {
     user: (state) => {
       return state.user;
+    },
+    totalBook(state){
+      return state.bookList.length
     }
   },
   mutations: {
-    user(state, user){
-      state.user = user;
+    userData(state, mdata){
+      state.user = mdata;
+    },
+    ADD_BOOK(state, inputdata){
+      //console.log(inputdata)
+      state.bookList.push(inputdata)
+    },
+    REMOVE_BOOK(state, bid){
+      //console.warn(bid)
+      state.bookList.splice(bid,1)
     }
   },
   actions: {
-    user(context, user){
-      context.commit('user', user);
+    actionUser(context, udata){
+      context.commit('userData', udata);
+    },
+    addBook(context, inputdata){
+      context.commit('ADD_BOOK', inputdata)
+    },
+    deleteBook({commit}, bookId){
+      commit('REMOVE_BOOK', bookId)
+    },
+    alertMe(){
+      alert("Hello I am from Action")
     }
   },
   modules: {

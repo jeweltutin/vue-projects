@@ -53,7 +53,7 @@ export default {
                 localStorage.setItem('user-info', response.data.access_token);
                 
                 //console.log(response.data.user);
-                this.$store.dispatch('user', response.data.user);
+                this.$store.dispatch('actionUser', response.data.user);
                 this.$router.push({ name: 'Home'});
                 //this.$router.push('/');
             }
