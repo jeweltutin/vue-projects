@@ -1,0 +1,8 @@
+https://larainfo.com/blogs/laravel-9-rest-api-authentication-with-vue-3-composition-api
+
+How to QuickStart Secured Rest API Project With Laravel 9 ?
+https://dev.to/shanisingh03/how-to-quickstart-secured-rest-api-project-with-laravel-9--4dh7
+
+
+Getting Started with Laravel 9 Secured REST API.
+https://dev.to/techtoolindia/getting-started-with-laravel-9-secured-rest-api-390g

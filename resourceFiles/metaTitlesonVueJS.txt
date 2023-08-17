@@ -1,2 +1,9 @@
 //Simple dynamic pages meta titles on VueJS
 https://www.blog.tonyswierz.com/javascript/simple-dynamic-pages-meta-titles-on-vuejs/
+
+
+
+//plugin seo meta
+https://www.npmjs.com/package/vue-3-meta
+https://github.com/nuxt/vue-meta/tree/next
+https://vue-meta.nuxtjs.org/
